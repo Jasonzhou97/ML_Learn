@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"from PIL import Image; print\\('Image ok'\\)\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"import PIL._imaging\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -m pip install --force-reinstall --no-cache-dir Pillow)",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"from PIL import Image; print\\('Pillow OK', Image.__name__\\)\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"from transformers import pipeline; print\\('transformers pipeline import OK'\\)\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"import numpy; print\\('numpy', numpy.__version__\\)\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"import scipy; print\\('scipy', scipy.__version__\\)\")",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -m pip install --force-reinstall --no-cache-dir scipy)",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -c \"from scipy.spatial import qhull; print\\('qhull ok'\\)\")",
+      "Bash(tasklist)",
+      "Bash(\"/c/Users/Admin/anaconda3/python.exe\" -m pip install --force-reinstall --no-cache-dir \"numpy<1.23\" scipy)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "PowerShell(gh --version)"
+    ]
+  }
+}
